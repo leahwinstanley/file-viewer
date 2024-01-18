@@ -1,0 +1,14 @@
+.fileArea {
+  background-color: rgba(220, 215, 215, 0.5);
+  border-radius: 20px;
+  margin-right: auto;
+  margin-left: auto;
+  height: 87vh;
+  overflow: scroll;
+  width: 90vw;
+
+  @media screen and (min-width: 768px) {
+    height: 80vh;
+    width: 80vw;
+  }
+}
